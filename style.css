@@ -1,0 +1,160 @@
+/* ------------------- */
+/* ESTILOS GERAIS (BASE) */
+/* ------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0F172A, #1E293B);
+  color: #F8FAFC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------- */
+/* CABEÇALHO (HERO) */
+/* ------------------- */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover; /* Garante que a imagem não se distorça */
+  border: 4px solid #6366F1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin: 20px 0 10px;
+  color: #8B5CF6;
+}
+
+.hero p {
+  font-size: 1.1em;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+  color: #94A3B8;
+}
+
+/* ------------------- */
+/* MENU DE NAVEGAÇÃO */
+/* ------------------- */
+nav {
+  margin-bottom: 20px;
+}
+nav a {
+  color: #F8FAFC;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #A78BFA;
+}
+
+/* Destaca o link da página ativa */
+nav a.active {
+  color: #A78BFA;
+  text-decoration: underline;
+}
+
+/* ------------------- */
+/* CONTEÚDO PRINCIPAL */
+/* ------------------- */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.about h3 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #6366F1;
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #F8FAFC;
+}
+
+.about p,
+.about ul {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #94A3B8;
+  max-width: 800px; /* Melhora a legibilidade em telas largas */
+}
+
+/* Ajuste específico para os itens da lista do portfólio */
+.about li {
+  margin-bottom: 30px; /* Adiciona espaço entre os projetos */
+}
+
+/* ------------------- */
+/* FORMULÁRIO DE CONTATO */
+/* ------------------- */
+form {
+  background-color: #1E293B;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  max-width: 700px; /* Limita a largura do formulário */
+  margin: 0 auto; /* Centraliza o formulário na seção */
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #F8FAFC;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #334155;
+  color: #F8FAFC;
+  font-size: 1em;
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
+
+form input[type="submit"] {
+  background-color: #6366F1;
+  color: #F8FAFC;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #A78BFA;
+}
+
+/* ------------------- */
+/* RODAPÉ */
+/* ------------------- */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background: #0F172A;
+  color: #94A3B8;
+}
